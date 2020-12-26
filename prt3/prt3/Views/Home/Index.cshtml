@@ -1,0 +1,27 @@
+﻿<!--Razor에게 레이아웃 템플릿 사용 안한다고 알려줌-->
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        div {
+            font-size: 20px;
+            color: palevioletred;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- Hellow World!!! -->
+        <!-- Razor 표현식 -->
+        @ViewBag.Insa 되세요!!!
+    </div>
+</body>
+</html>
