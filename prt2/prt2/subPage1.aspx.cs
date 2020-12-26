@@ -7,16 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace prt2
 {
-    public partial class _default : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void btn1_Click(object sender, EventArgs e)
+        protected void btn2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("subPage1.aspx");
+
         }
     }
 }
